@@ -1,0 +1,5 @@
+development:
+  dialect: mysql
+  datasource: root:@/techtrain_game?parseTime=true
+  dir: db/migrations
+  table: migrations
