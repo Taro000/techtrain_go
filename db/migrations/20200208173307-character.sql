@@ -3,6 +3,7 @@
 CREATE TABLE IF NOT EXISTS `techtrain_game`.`character` (
     `id` CHAR(36) NOT NULL,
     `name` VARCHAR(45) NOT NULL,
+    `probability` INT UNSIGNED NOT NULL,
     `created_at` DATETIME NOT NULL,
     `modified_at` DATETIME NOT NULL,
     PRIMARY KEY (`id`),
